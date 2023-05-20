@@ -1,8 +1,10 @@
-//To build the docker image:
+#For installing/reinstalling the Docker (I had to uninstall and reinstall it on the first time, but I had installed it some years before
+
+#To build the docker image:
 docker build -t brobath_test .
 
-//To run the docker image:
+#To run the docker image:
 docker run --publish 3000:3000 brobath_test
 
-//To run naming it and on background:
+#To run naming it and on background:
 docker run --name brobath-test -d --publish 3000:3000 brobath_test
