@@ -19,3 +19,8 @@ Taking localhost for an example, to test it, access:
 <br>
 
 If working fine, it will return a JSON. Note that one of the values of it is the XHR code to run on the browser console for testing the POST method. Just remember to change the domain of it to localhost (it is pointing to my domain, sorry, won't change it :( )
+
+<br>
+
+For accessing a running container:
+>docker exec -it <container_id> /bin/bash
